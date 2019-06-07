@@ -1,0 +1,72 @@
+#text {
+	width: 666 !important; 
+	height: 114 !important;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#text path:nth-child(2) {
+	stroke-dasharray: 571.576904296875;
+	stroke-dashoffset: 571.576904296875;
+	animation: line 2s ease forwards, fill 1s ease forwards 3.5s;
+}
+
+#text path:nth-child(3) {
+	stroke-dasharray: 463.9679870605469;
+	stroke-dashoffset: 463.9679870605469;
+	animation: line 2s ease forwards .3s, fill 1s ease forwards 3.5s;
+}
+
+#text path:nth-child(4) {
+	stroke-dasharray: 493.91162109375;
+	stroke-dashoffset: 493.91162109375;
+	animation: line 2s ease forwards .6s, fill 1s ease forwards 3.5s;
+}
+
+#text path:nth-child(5) {
+	stroke-dasharray: 226.94400024414062;
+	stroke-dashoffset: 226.94400024414062;
+	animation: line 2s ease forwards .9s, fill 1s ease forwards 3.5s;
+}
+
+#text path:nth-child(6) {
+	stroke-dasharray: 635.7115478515625;
+	stroke-dashoffset: 635.7115478515625;
+	animation: line 2s ease forwards 1.2s, fill 1s ease forwards 3.5s;
+}
+
+#text path:nth-child(7) {
+	stroke-dasharray: 604.4829711914062;
+	stroke-dashoffset: 604.4829711914062;
+	animation: line 2s ease forwards 1.5s, fill 1s ease forwards 3.5s;
+}
+
+#text path:nth-child(8) {
+	stroke-dasharray: 463.96795654296875;
+	stroke-dashoffset: 463.96795654296875;
+	animation: line 2s ease forwards 1.8s, fill 1s ease forwards 3.5s;
+}
+
+#text path:nth-child(9) {
+	stroke-dasharray: 549.0664672851562;
+	stroke-dashoffset: 549.0664672851562;
+	animation: line 2s ease forwards 2.1s, fill 1s ease forwards 3.5s;
+}
+
+@keyframes line {
+	100% {
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes fill {
+	0% {
+		fill: transparent;
+	}
+
+	100% {
+		fill: white;
+	}
+}
